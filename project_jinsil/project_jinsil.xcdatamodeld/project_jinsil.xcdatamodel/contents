@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15702" systemVersion="19D76" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Exercise" representedClassName="Exercise" syncable="YES" codeGenerationType="class">
+        <attribute name="exDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="exHour" optional="YES" attributeType="String"/>
+        <attribute name="exPart" optional="YES" attributeType="String"/>
+        <attribute name="exSort" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Kcal" representedClassName="Kcal" syncable="YES" codeGenerationType="class">
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="food" optional="YES" attributeType="String"/>
+        <attribute name="kcal" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Exercise" positionX="-63" positionY="-18" width="128" height="103"/>
+        <element name="Kcal" positionX="-54" positionY="18" width="128" height="88"/>
+    </elements>
+</model>
